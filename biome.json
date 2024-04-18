@@ -1,0 +1,64 @@
+{
+  "$schema": "https://biomejs.dev/schemas/1.7.0/schema.json",
+  "files": {
+    "ignore": [
+      "**/dist/**",
+      "**/.vercel/**"
+    ],
+    "ignoreUnknown": true
+  },
+  "formatter": {
+    "indentStyle": "tab",
+    "indentWidth": 2,
+    "lineWidth": 100,
+    "ignore": [
+      ".changeset/",
+      "package-lock.json",
+      "pnpm-lock.yaml"
+    ],
+    "include": [
+      "*.astro",
+      "*.ts"
+    ]
+  },
+  "javascript": {
+    "formatter": {
+      "trailingComma": "es5",
+      "quoteStyle": "single",
+      "semicolons": "asNeeded"
+    },
+    "globals": ["Astro"]
+  },
+  "json": {
+    "parser": {
+      "allowComments": true,
+      "allowTrailingCommas": true
+    },
+    "formatter": {
+      "trailingCommas": "none"
+    }
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true,
+      "a11y": {
+        "noSvgWithoutTitle": "off"
+      }
+    }
+  },
+  "vcs": {
+    "enabled": true,
+    "clientKind": "git",
+    "useIgnoreFile": true
+  },
+  "overrides": [
+    {
+      "include": ["package.json"],
+      "formatter": {
+        "indentStyle": "space",
+        "lineWidth": 80
+      }
+    }
+  ]
+}

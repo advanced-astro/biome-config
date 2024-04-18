@@ -1,0 +1,40 @@
+{
+  "name": "biome-config-astro",
+  "version": "1.0.0",
+  "description": "Shared Biome config for Astro projects",
+  "homepage": "https://advanced-astro.dev",
+  "author": {
+    "name": "Marc Redwerkz"
+  },
+  "bugs": "https://github.com/advanced-astro/biome-config/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/advanced-astro/biome-config.git"
+  },
+  "keywords": [
+    "astro",
+    "biome",
+    "biomejs",
+    "config",
+    "configuration",
+    "formatter",
+    "linter"
+  ],
+  "license": "ISC",
+  "exports": {
+    ".": "./biome.json"
+  },
+  "main": "biome.json",
+  "files": ["biome.json"],
+  "scripts": {
+    "format": "biome format . --write",
+    "lint": "biome lint .",
+    "lint:fix": "biome lint . --apply"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.7.0"
+  },
+  "peerDependencies": {
+    "@biomejs/biome": "^1.7.0"
+  }
+}
