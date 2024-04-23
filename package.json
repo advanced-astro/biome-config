@@ -1,6 +1,6 @@
 {
   "name": "biome-config-astro",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Shared Biome config for Astro projects",
   "homepage": "https://advanced-astro.dev",
   "author": {
@@ -32,9 +32,9 @@
     "lint:fix": "biome lint . --apply"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.7.0"
+    "@biomejs/biome": "^1.7.1"
   },
   "peerDependencies": {
-    "@biomejs/biome": "^1.7.0"
+    "@biomejs/biome": "^1.7.1"
   }
 }
