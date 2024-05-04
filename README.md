@@ -20,7 +20,7 @@ Add the `extends` array to your project's `biome.json` file:
 ```jsonc
 // <project-root>/biome.json
 {
-    "$schema": "https://biomejs.dev/schemas/1.7.1/schema.json",
+    "$schema": "https://biomejs.dev/schemas/1.7.2/schema.json",
     "extends": ["biome-config-astro"],
     // ...
 }
