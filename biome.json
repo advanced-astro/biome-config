@@ -13,7 +13,7 @@
 	},
 	"javascript": {
 		"formatter": {
-			"trailingComma": "es5",
+			"trailingCommas": "es5",
 			"quoteStyle": "single",
 			"semicolons": "asNeeded"
 		},
