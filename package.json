@@ -1,6 +1,6 @@
 {
   "name": "biome-config-astro",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Shared Biome config for Astro projects",
   "keywords": [
     "astro",
