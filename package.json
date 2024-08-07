@@ -15,7 +15,7 @@
   "bugs": "https://github.com/advanced-astro/biome-config/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/advanced-astro/biome-config.git"
+    "url": "git+https://github.com/advanced-astro/biome-config.git"
   },
   "license": "ISC",
   "author": {
