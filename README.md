@@ -1,9 +1,18 @@
 # biome-config-astro
 
-[![Install Size][pkgphobia-img]][pkgphobia-url]
-[![NPM Package Version][npm-version]][npm-package]
-[![License: ISC][license-img]][license]
+[![Install Size][pkgphobia-badge]][pkgphobia-url]
+[![NPM Package Version][npm-badge]][npm-url]
+[![License: ISC][license-badge]][license-file]
 [![GitHub Repo Stars][gh-stars]][gh-repo]
+
+[pkgphobia-badge]: https://packagephobia.com/badge?p=biome-config-astro
+[pkgphobia-url]: https://packagephobia.com/result?p=biome-config-astro
+[npm-badge]: https://img.shields.io/npm/v/biome-config-astro?style=flat-square
+[npm-url]: https://www.npmjs.com/package/biome-config-astro
+[license-badge]: https://flat.badgen.net/github/license/amio/badgen
+[license-file]: ./LICENSE.md
+[gh-stars]: https://img.shields.io/github/stars/advanced-astro/biome-config?style=flat-square
+[gh-repo]: https://github.com/advanced-astro/biome-config
 
 Shared Biome config for Astro projects
 
@@ -20,7 +29,7 @@ Add the `extends` array to your project's `biome.json` file:
 ```jsonc
 // <project-root>/biome.json
 {
-    "$schema": "https://biomejs.dev/schemas/1.7.2/schema.json",
+    // ...
     "extends": ["biome-config-astro"],
     // ...
 }
@@ -44,21 +53,13 @@ Add scripts to your `package.json` if you haven't already:
 
 ## Links
 
-- [Astro][astro-site]
-- [Biome][biome-site]
+- [Astro][astro-url]
+- [Biome][biome-url]
   - [Blog: Announcing Biome](https://biomejs.dev/blog/annoucing-biome/)
 
 ## License
 
-[MIT](./LICENSE) License &copy; 2024 [Marc Redwerkz](https://github.com/rdwz)
+[ISC][license-file] License &copy; 2024 [Marc Redwerkz](https://github.com/rdwz)
 
-[astro-site]: https://astro.build
-[biome-site]: https://biome.dev
-[gh-stars]: https://img.shields.io/github/stars/advanced-astro/biome-config
-[gh-repo]: https://github.com/advanced-astro/biome-config
-[license-img]: https://flat.badgen.net/github/license/amio/badgen
-[license]: ./LICENSE.md
-[npm-package]: https://www.npmjs.com/package/biome-config-astro
-[npm-version]: https://img.shields.io/npm/v/biome-config-astro?style=flat-square
-[pkgphobia-img]: https://packagephobia.com/badge?p=biome-config-astro&style=flat-square
-[pkgphobia-url]: https://packagephobia.com/result?p=biome-config-astro
+[astro-url]: https://astro.build
+[biome-url]: https://biome.dev
