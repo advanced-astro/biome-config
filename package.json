@@ -30,6 +30,7 @@
   ],
   "scripts": {
     "format": "biome format . --write",
+    "format:fix": "biome format . --write",
     "lint": "biome lint .",
     "lint:fix": "biome lint . --apply"
   },
